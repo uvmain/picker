@@ -12,8 +12,7 @@ import (
 )
 
 func main() {
-	fmt.Println("🎨 Color Picker")
-	fmt.Println("Hover your mouse over a pixel and press Enter to pick a colour")
+	fmt.Println("🎨 Hover your mouse over a pixel and press Enter to pick a colour...")
 
 	fmt.Scanln()
 
@@ -28,7 +27,6 @@ func main() {
 func getColour() {
 	// Get mouse coordinates
 	x, y := robotgo.Location()
-	fmt.Printf("Mouse position: (%d, %d)\n", x, y)
 
 	// Get display that contains the point
 	displayIndex := -1
@@ -66,6 +64,7 @@ func getColour() {
 
 	fmt.Println()
 	fmt.Printf("  \033[38;2;%d;%d;%dm%s\033[0m\n", r8, g8, b8, "■■■■■■■■■■■■■■■■■■■■■■■■■■")
+	fmt.Println()
 
 	// Copy hex to clipboard
 	err = clipboard.WriteAll(hex)

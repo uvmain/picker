@@ -1,13 +1,13 @@
-# 🎨 Color Picker
+# 🎨 Picker
 
-A simple Go-based application that allows you to pick a color from your screen by hovering your mouse over a pixel and pressing Enter. The application captures the color under the cursor, displays its RGB, HEX, and HSL values, and copies the HEX value to your clipboard.
+A simple Go application that allows you to pick a colour from your screen by hovering your mouse over a pixel and pressing Enter. The application captures the colour under the cursor, displays its RGB, HEX, and HSL values, and copies the HEX value to your clipboard.
 
 ## Features
 
-- Capture the color of any pixel on your screen.
-- Display the color in RGB, HEX, and HSL formats.
-- Copy the HEX value of the color to your clipboard.
-- Visualize the picked color in the console.
+- Capture the colour of any pixel on your screen.
+- Display the colour in RGB, HEX, and HSL formats.
+- Copy the HEX value of the colour to your clipboard.
+- Visualize the picked colour in the console.
 
 ## Dev Prerequisites
 
@@ -36,19 +36,18 @@ go get github.com/kbinani/screenshot
 
 3. Follow the instructions in the terminal:
    - Hover your mouse over the pixel you want to pick.
-   - Press Enter to capture the color.
-4. The application will display the color's RGB, HEX, and HSL values in the terminal.
+   - Press Enter to capture the colour.
+4. The application will display the colour's RGB, HEX, and HSL values in the terminal.
 5. The HEX value will be automatically copied to your clipboard.
 6. Press Enter to exit the application.
 
 ## Example Output
 
 ```
-🎨 Color Picker
-Hover your mouse over a pixel and press Enter to pick a colour
+🎨 Hover your mouse over a pixel and press Enter to pick a colour
 
 Mouse position: (500, 300)
-Picked Color:
+Picked colour:
   RGB : 255, 0, 0
   HEX : #FF0000
   HSL : 0, 100, 50

@@ -1,0 +1,17 @@
+{
+  "version": "0.2",
+  "ignorePaths": [],
+  "dictionaryDefinitions": [],
+  "dictionaries": [],
+  "allowCompoundWords": true,
+  "language": "en-GB,en",
+  "minWordLength": 4,
+  "words": [
+    "atotto",
+    "kbinani",
+    "ldflags",
+    "robotgo"
+  ],
+  "ignoreWords": [],
+  "import": []
+}
